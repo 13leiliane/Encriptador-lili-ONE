@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- prof
+   <html lang="en" dir="ltr">
+  -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1° passo -->
+  <meta name="author" content="13leiliane">
+  <title>ENCRIP-Lili</title>
+
+  <!-- el logo -->
+   <link rel="shortcut icon" href="../img/data.png" type="image/x-icon">
+<!-- 4° passo -->
+<link rel="stylesheet" href="../Css/reset.css">
+<link rel="stylesheet" href="../Css/home.css">
+  <!-- 2° passo -->
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="../Css//mobile.css">
+    <link rel="icon" type="image/x-icon" href="../imag/favicon.svg">
+</head>
+
+<body>
+<header>
+
+  <div class="caja">
+    
+      <img class="img" src="../img/logo.svg" alt="">
+      <h1>Encriptador</h1>
+      <!-- <h1>ENCRIPTADOR</h1> -->
+    
+    <nav>
+      <ul>
+        <li>
+          <a href="../landi.html">Landi</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div id="aviso">&nbsp;</div>
+            <div id="txt">
+                <div></div>
+                <div>
+                  <h1>Encriptor de Mensaje</h1>
+                    <textarea class="txts" rows="15" id="entrada" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
+                </div>
+                <div>
+                  <h1>
+                    Desencriptador de Mensaje </h1>
+                    <textarea class="txts" rows="15" id="saida" placeholder="Saída Criptografada" disabled></textarea>
+                </div>
+                <div></div>
+            </div>
+            <div id="troca">
+                <div id="alerta">
+                    <div id="alerta1"><i class="fa-solid fa-circle-exclamation fa-2x"></i>
+                        </i><p>&nbsp;!Apenas letras minúsculas e sem Acento!</p>
+                    </div>
+                    <div id="alerta2">
+                        <a href="javascript:void(0)" onclick="share()"><i class="fa-solid fa-share-nodes fa-2x" id="shareV"></i></a>
+                    </div>
+                </div>
+                <div id="botoes">
+                    <button onclick="encriptar()" class="btns">Criptografar</button>
+                    <button onclick="descriptar()" class="btns">Descriptografar</button>
+                    <button onclick="copiaECola()" class="btns">Copiar y Pegar </button>
+                    <button onclick="limpeza()" class="btns">Limpar</button>
+                </div>
+            </div>
+
+
+
+
+
+<footer>
+    <!-- Parte de abajo-->
+<div id="txtTec"><p>Tecnólogias utilizadas neste desafio  </p></div>
+            <div id="tecs">
+                <div><i class="fa-brands fa-html5 fa-3x"></i><p>HTML5</p></div>
+                <div><i class="fa-brands fa-js fa-3x"></i><p>JavaScript</p></div>
+                <div><i class="fa-brands fa-css3-alt fa-3x"></i><p>CSS3</p></div>
+            </div>
+          </footer>
+          
+         
+</body>
+  <script src="https://kit.fontawesome.com/e801e4a6d3.js" crossorigin="anonymous"></script>
+          <script src="../JavaScript/btns-copiar-limpar.js" defer></script>
+    <script src="../JavaScript/criptografar.js" defer></script>
+    <script src="../JavaScript/descriptografar.js" defer></script>
+</html>
