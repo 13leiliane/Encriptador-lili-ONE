@@ -8,6 +8,6 @@ function descriptar(){
         document.getElementById("entrada").value = "";
         document.getElementById("aviso").innerHTML = "&nbsp";
     } else {
-        document.getElementById("aviso").innerText = "Digite ou Cole Algo Para Descriptografar";
+        document.getElementById("aviso").innerText = "Ingese algo para  Descriptografar";
     }
 };

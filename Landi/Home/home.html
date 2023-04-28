@@ -19,6 +19,12 @@
   <!-- 2° passo -->
 <link rel="stylesheet" media="screen and (max-width: 768px)" href="../Css//mobile.css">
     <link rel="icon" type="image/x-icon" href="../imag/favicon.svg">
+
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,45 +32,53 @@
 
   <div class="caja">
     
-      <img class="img" src="../img/logo.svg" alt="">
-      <h1>Encriptador</h1>
+      <!-- <img class="img" src="../img/logo.svg" alt=""> -->
+      <h1 class="lili">Encriptador</h1>
       <!-- <h1>ENCRIPTADOR</h1> -->
     
     <nav>
       <ul>
         <li>
-          <a href="../landi.html">Landi</a>
+          <a class="land" href="../landi.html"> Vuelver - Landi</a>
         </li>
       </ul>
     </nav>
   </div>
 </header>
-
+ 
 
 <div id="aviso">&nbsp;</div>
             <div id="txt">
                 <div></div>
                 <div>
-                  <h1>Encriptor de Mensaje</h1>
-                    <textarea class="txts" rows="15" id="entrada" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
+                  <h1 class="salidas">Entrada</h1>
+                  
+                    <textarea class="txts" rows="15"
+                     id="entrada" placeholder="Digite o texto aqui" autofocus="true" required > 
+                      
+                    </textarea>
                 </div>
                 <div>
-                  <h1>
-                    Desencriptador de Mensaje </h1>
-                    <textarea class="txts" rows="15" id="saida" placeholder="Saída Criptografada" disabled></textarea>
+                  <h1 class="salidas">
+                    Salida </h1>
+                    
+                    <textarea
+                      class="luli" rows="15" id="saida" placeholder="Saída Criptografada"  ></textarea>
+                      
                 </div>
                 <div></div>
             </div>
             <div id="troca">
                 <div id="alerta">
                     <div id="alerta1"><i class="fa-solid fa-circle-exclamation fa-2x"></i>
-                        </i><p>&nbsp;!Apenas letras minúsculas e sem Acento!</p>
+                        </i><p class="letra">&nbsp;!Apenas letras minúsculas e sem Acento!</p>
                     </div>
                     <div id="alerta2">
                         <a href="javascript:void(0)" onclick="share()"><i class="fa-solid fa-share-nodes fa-2x" id="shareV"></i></a>
                     </div>
                 </div>
                 <div id="botoes">
+                 
                     <button onclick="encriptar()" class="btns">Criptografar</button>
                     <button onclick="descriptar()" class="btns">Descriptografar</button>
                     <button onclick="copiaECola()" class="btns">Copiar y Pegar </button>
@@ -78,7 +92,7 @@
 
 <footer>
     <!-- Parte de abajo-->
-<div id="txtTec"><p>Tecnólogias utilizadas neste desafio  </p></div>
+<div id="txtTec"><p class="teck">Tecnólogias utilizadas neste desafio  </p></div>
             <div id="tecs">
                 <div><i class="fa-brands fa-html5 fa-3x"></i><p>HTML5</p></div>
                 <div><i class="fa-brands fa-js fa-3x"></i><p>JavaScript</p></div>

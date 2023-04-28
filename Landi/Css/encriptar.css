@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#txt {
+    display: block;
+}
+.contenedor{
+  position: relative;
+  width: 50%;
+  height: 0%;
+  background-color: #f3f5fc;
+}
+
+/* titulo-mensaje// es de la parte del desencriptado */

@@ -1,81 +1,72 @@
-header{
-  background-color: rgba(137, 43, 226, 0.151);
-padding: 20px 5px;
-}
 
-img{
-width: 50px;
-color: white;
-}
-
-nav{
-  /* position: fixed; (no queda fijo en la pagina) */
-  position: absolute;
+/* stilo click en ekl / (Land) */
+ nav{
+    color: rgb(241, 166, 24);
+   position: absolute;
   top: 2em;
-  right: 2em;
-}
-
- /* /LANDPAGE */
+  right: 75em;
+ 
+} 
+ /* /LANDI estilo de letra y color */
  nav a{
+  
   text-transform: uppercase;
+  background: linear-gradient( rgb(241, 166, 24), #888888);
   color:white;
   font-weight: bold;
-  font-size: 2em;
-  /* text-decoration: none; */
- }
-body {
-  background: #F3F5FC;
-  font-family: 'Merriweather', serif;
-}
-
-/* parte de arriba con codigos verdes */
-.caja{
-  background-image: url("../imag/berta.gif");;
- width: 100%;
-  position: relative;
-  margin: 0 auto;
-}
-
-h1{
-  border-radius: 5px;
-  color: black;
-   text-align: center;
-  font-size: 2em;
-  /* margin: 0 0 0; */
+  font-size: 1em;
   text-shadow:  0.5px 0.5px 15px red;
- 
+  
+ }
+ /* nombre (ENCRIPTADOR */
+  .lili{
+     top: 2em;
+     right: 5em;
+  font-size: 3em;
+  text-align: center;
+ color: rgb(201, 166, 24);;
+  text-shadow:  0.5px 0.5px 15px red; 
+} 
+
+
+ /* Meu stylo de (BODY) */
+body {
+
+  
+  font-family: 'Press Start 2P', cursive;
+background-image: url("../img/111.gif");
+ text-align: center;
+
 }
+/* 2 (POSICIONAMENTO del TEXTO)*/
+.luli{
+   background-image: url("../img/boneco.svg"); 
+   
+  font-size: 15px;
+  text-align: center;
+} 
+/* .luli, placeholder{
+  font-size: 15px;
+} */
 
 
-/* <!-- PARTE PARA CREAR EL css DEL INCRIPTADOR --> */
-
-/* 1 */
-#aviso {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    user-select: none;
-    color: red;
+.txts, .luli{
+   position: relative;
+    top: 1em;
+  margin: 2em; 
+  width: 30em;
+  height: 25em;
 }
-/* 2 */
+.txts{
+   font-size: 15px;
+  text-align: center;
+   background: linear-gradient(rgba(168, 152, 245, 0.336), #88888810);
+}
 #txt {
     display: grid;
-    grid-template-columns:1fr 4fr 4fr 1fr;
+    grid-template-columns:5fr 1fr 1fr 5fr;
     text-align: center;
-}
-/* 3 */
-.txts {
-    width: 90%;
-    height: 100%;
-    margin-bottom: 30px;
-    resize: none;
-    color: black;
-    outline: none;
-    background-image: url("../imag/boneco.svg");
-    background-color: transparentred;
-    background-repeat: no-repeat;
-    background-position: right;
-    border-radius: 5px;
+    
 }
 
 
@@ -86,9 +77,9 @@ h1{
 
 
 .btns { 
-    background-color: #576867;
+    background: linear-gradient(rgba(168, 152, 245, 0.336), #88888810);
     border: none;
-    color: white;
+    color: rgb(241, 166, 24);
     padding: 10px 20px;
     text-decoration: none;
     font-size: 13px;
@@ -103,15 +94,11 @@ h1{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/* hr {
-    max-width: 70%;
-    margin-top: 50px;
-} */
 
 
 #alerta {
     display: flex;
-    color: #576867;
+   color: rgb(241, 166, 24);
     grid-gap: 20px;
     justify-content: center;
     margin-top: 50px;
@@ -137,20 +124,20 @@ h1{
     color: #ffffff;
 }
 
-.tudo{
-display: contents;
+.teck{
+  color: rgb(241, 166, 24);
+  font-size: 20px;
+  text-align: center;
 }
 
-footer{
-  background-image: url(../imag/bd7a10a15f2f5f8eada8b5d61e72763b.gif);
-  /* padding: 100px; */
- 
+.letra{
+  color: rgb(241, 166, 24);
+ background: linear-gradient(rgba(168, 152, 245, 0.336), #88888810);
 }
-#txtTec{
-  /*  estilo de esta parte  (Tecnólogias utilizadas neste desafio)
-*/
-font-size: 40px;
-}
+
+
+
+
 
 /*  mobili.css. parte de (HTML. JavaScript, CSS */
 
@@ -161,15 +148,10 @@ font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+/* espcio entre el land y e encrip */
 #aviso {
-    margin: 5px;
-}
-#txt {
-    display: block;
-}
-.txts {
-    width: 90%;
-    margin-bottom: 10px;
+    margin: 10px;
+    color: rgb(241, 166, 24);
 }
 #botoes{
     display: grid;
@@ -200,11 +182,18 @@ hr {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    color: #576867;
+    text-align: center;
+    font-size: 1em;
+    /* color: #3b7571dc; */
+     color: rgb(241, 166, 24);
+    
     padding: 0px 0px 20px;
 } 
  #meusLinks {
     padding: 15px;
+}
+.salidas{
+   color: rgb(241, 166, 24);
 }
 
 
