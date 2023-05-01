@@ -32,7 +32,7 @@
  /* Meu stylo de (BODY) */
 body {
 
-  
+  /* background-color: #F3F5Fc; */
   font-family: 'Press Start 2P', cursive;
 background-image: url("../img/111.gif");
  text-align: center;
@@ -132,7 +132,7 @@ background-image: url("../img/111.gif");
 
 .letra{
   color: rgb(241, 166, 24);
- background: linear-gradient(rgba(168, 152, 245, 0.336), #88888810);
+ background: linear-gradient(rgba(38, 10, 180, 0.336), #88888810);
 }
 
 
